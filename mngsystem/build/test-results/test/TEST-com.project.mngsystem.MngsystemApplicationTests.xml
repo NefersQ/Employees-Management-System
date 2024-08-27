@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.project.mngsystem.MngsystemApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-08-27T12:15:14" hostname="SAIGUDEN" time="0.344">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.project.mngsystem.MngsystemApplicationTests" time="0.344"/>
+  <system-out><![CDATA[Standard Commons Logging discovery in action with spring-jcl: please remove commons-logging.jar from classpath in order to avoid potential conflicts
+15:15:09.322 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.project.mngsystem.MngsystemApplicationTests]: MngsystemApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+15:15:09.452 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.project.mngsystem.MngsystemApplication for test class com.project.mngsystem.MngsystemApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.3)
+
+2024-08-27T15:15:09.947+03:00  INFO 26840 --- [mngsystem] [    Test worker] c.p.mngsystem.MngsystemApplicationTests  : Starting MngsystemApplicationTests using Java 17.0.10 with PID 26840 (started by nefer in C:\Users\nefer\IdeaProjects\mngsystem)
+2024-08-27T15:15:09.949+03:00  INFO 26840 --- [mngsystem] [    Test worker] c.p.mngsystem.MngsystemApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2024-08-27T15:15:10.688+03:00  INFO 26840 --- [mngsystem] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-27T15:15:10.756+03:00  INFO 26840 --- [mngsystem] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 57 ms. Found 1 JPA repository interface.
+2024-08-27T15:15:11.340+03:00  INFO 26840 --- [mngsystem] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-27T15:15:11.739+03:00  INFO 26840 --- [mngsystem] [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@34d9ff53
+2024-08-27T15:15:11.741+03:00  INFO 26840 --- [mngsystem] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-27T15:15:11.796+03:00  INFO 26840 --- [mngsystem] [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-27T15:15:11.887+03:00  INFO 26840 --- [mngsystem] [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-27T15:15:11.942+03:00  INFO 26840 --- [mngsystem] [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-27T15:15:12.377+03:00  INFO 26840 --- [mngsystem] [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-27T15:15:12.642+03:00  WARN 26840 --- [mngsystem] [    Test worker] org.hibernate.orm.deprecation            : HHH90000025: OracleDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-27T15:15:13.687+03:00  INFO 26840 --- [mngsystem] [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-27T15:15:13.690+03:00  INFO 26840 --- [mngsystem] [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-27T15:15:14.089+03:00  WARN 26840 --- [mngsystem] [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-27T15:15:14.467+03:00  INFO 26840 --- [mngsystem] [    Test worker] c.p.mngsystem.MngsystemApplicationTests  : Started MngsystemApplicationTests in 4.827 seconds (process running for 6.265)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

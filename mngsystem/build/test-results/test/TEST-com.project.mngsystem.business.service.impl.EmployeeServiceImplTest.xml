@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.project.mngsystem.business.service.impl.EmployeeServiceImplTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2024-08-27T12:15:14" hostname="SAIGUDEN" time="0.41">
+  <properties/>
+  <testcase name="testDeleteEmployee_Exists()" classname="com.project.mngsystem.business.service.impl.EmployeeServiceImplTest" time="0.265"/>
+  <testcase name="testExportEmployeesToCSV()" classname="com.project.mngsystem.business.service.impl.EmployeeServiceImplTest" time="0.129"/>
+  <testcase name="testGetAllEmployees_withoutFilter()" classname="com.project.mngsystem.business.service.impl.EmployeeServiceImplTest" time="0.002"/>
+  <testcase name="testGetAllEmployees_withFilter()" classname="com.project.mngsystem.business.service.impl.EmployeeServiceImplTest" time="0.002"/>
+  <testcase name="testCreateEmployee()" classname="com.project.mngsystem.business.service.impl.EmployeeServiceImplTest" time="0.004"/>
+  <testcase name="testDeleteEmployee_NotExist()" classname="com.project.mngsystem.business.service.impl.EmployeeServiceImplTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
