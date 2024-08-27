@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.project.mngsystem.business.service.impl.EmployeeServiceImplTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2024-08-27T12:15:14" hostname="SAIGUDEN" time="0.41">
+<testsuite name="com.project.mngsystem.business.service.impl.EmployeeServiceImplTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2024-08-27T17:41:50" hostname="SAIGUDEN" time="0.429">
   <properties/>
-  <testcase name="testDeleteEmployee_Exists()" classname="com.project.mngsystem.business.service.impl.EmployeeServiceImplTest" time="0.265"/>
-  <testcase name="testExportEmployeesToCSV()" classname="com.project.mngsystem.business.service.impl.EmployeeServiceImplTest" time="0.129"/>
-  <testcase name="testGetAllEmployees_withoutFilter()" classname="com.project.mngsystem.business.service.impl.EmployeeServiceImplTest" time="0.002"/>
+  <testcase name="testDeleteEmployee_Exists()" classname="com.project.mngsystem.business.service.impl.EmployeeServiceImplTest" time="0.279"/>
+  <testcase name="testExportEmployeesToCSV()" classname="com.project.mngsystem.business.service.impl.EmployeeServiceImplTest" time="0.134"/>
+  <testcase name="testGetAllEmployees_withoutFilter()" classname="com.project.mngsystem.business.service.impl.EmployeeServiceImplTest" time="0.003"/>
   <testcase name="testGetAllEmployees_withFilter()" classname="com.project.mngsystem.business.service.impl.EmployeeServiceImplTest" time="0.002"/>
-  <testcase name="testCreateEmployee()" classname="com.project.mngsystem.business.service.impl.EmployeeServiceImplTest" time="0.004"/>
+  <testcase name="testCreateEmployee()" classname="com.project.mngsystem.business.service.impl.EmployeeServiceImplTest" time="0.003"/>
   <testcase name="testDeleteEmployee_NotExist()" classname="com.project.mngsystem.business.service.impl.EmployeeServiceImplTest" time="0.003"/>
-  <system-out><![CDATA[]]></system-out>
+  <system-out><![CDATA[2024-08-27T20:41:51.078+03:00  INFO 9452 --- [mngsystem] [    Test worker] c.p.m.b.s.impl.EmployeeServiceImpl       : Employee with ID: 1 successfully deleted.
+2024-08-27T20:41:51.240+03:00  INFO 9452 --- [mngsystem] [    Test worker] c.p.m.b.s.impl.EmployeeServiceImpl       : Successfully exported 1 employees to test.csv
+2024-08-27T20:41:51.254+03:00  WARN 9452 --- [mngsystem] [    Test worker] c.p.m.b.s.impl.EmployeeServiceImpl       : Employee with ID: 1 not found or has left the organization.
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

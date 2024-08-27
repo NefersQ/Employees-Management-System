@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.498s</div>
+<div class="counter">0.520s</div>
 <p>duration</p>
 </div>
 </td>
@@ -84,17 +84,17 @@
 </tr>
 <tr>
 <td class="success">testDeleteEmployee()</td>
-<td class="success">0.401s</td>
+<td class="success">0.416s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testExportEmployeesToCSV()</td>
-<td class="success">0.044s</td>
+<td class="success">0.048s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testGetAllEmployees()</td>
-<td class="success">0.024s</td>
+<td class="success">0.027s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -102,8 +102,8 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>2024-08-27T15:15:15.706+03:00  INFO 26840 --- [mngsystem] [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.project.mngsystem.web.controller.EmployeeIntegrationTest]: EmployeeIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2024-08-27T15:15:15.725+03:00  INFO 26840 --- [mngsystem] [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.project.mngsystem.MngsystemApplication for test class com.project.mngsystem.web.controller.EmployeeIntegrationTest
+<pre>2024-08-27T20:41:51.752+03:00  INFO 9452 --- [mngsystem] [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.project.mngsystem.web.controller.EmployeeIntegrationTest]: EmployeeIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-08-27T20:41:51.768+03:00  INFO 9452 --- [mngsystem] [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.project.mngsystem.MngsystemApplication for test class com.project.mngsystem.web.controller.EmployeeIntegrationTest
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -114,24 +114,33 @@
 
  :: Spring Boot ::                (v3.3.3)
 
-2024-08-27T15:15:15.753+03:00  INFO 26840 --- [mngsystem] [    Test worker] c.p.m.w.c.EmployeeIntegrationTest        : Starting EmployeeIntegrationTest using Java 17.0.10 with PID 26840 (started by nefer in C:\Users\nefer\IdeaProjects\mngsystem)
-2024-08-27T15:15:15.753+03:00  INFO 26840 --- [mngsystem] [    Test worker] c.p.m.w.c.EmployeeIntegrationTest        : No active profile set, falling back to 1 default profile: &quot;default&quot;
-2024-08-27T15:15:15.896+03:00  INFO 26840 --- [mngsystem] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-08-27T15:15:15.906+03:00  INFO 26840 --- [mngsystem] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 1 JPA repository interface.
-2024-08-27T15:15:15.996+03:00  INFO 26840 --- [mngsystem] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
-2024-08-27T15:15:16.055+03:00  INFO 26840 --- [mngsystem] [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection oracle.jdbc.driver.T4CConnection@46e3896e
-2024-08-27T15:15:16.056+03:00  INFO 26840 --- [mngsystem] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
-2024-08-27T15:15:16.057+03:00  INFO 26840 --- [mngsystem] [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-08-27T15:15:16.062+03:00  INFO 26840 --- [mngsystem] [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-08-27T15:15:16.075+03:00  INFO 26840 --- [mngsystem] [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-08-27T15:15:16.078+03:00  WARN 26840 --- [mngsystem] [    Test worker] org.hibernate.orm.deprecation            : HHH90000025: OracleDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2024-08-27T15:15:16.115+03:00  INFO 26840 --- [mngsystem] [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-08-27T15:15:16.116+03:00  INFO 26840 --- [mngsystem] [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-08-27T15:15:16.181+03:00  WARN 26840 --- [mngsystem] [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-08-27T15:15:16.291+03:00  INFO 26840 --- [mngsystem] [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2024-08-27T15:15:16.292+03:00  INFO 26840 --- [mngsystem] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2024-08-27T15:15:16.293+03:00  INFO 26840 --- [mngsystem] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
-2024-08-27T15:15:16.299+03:00  INFO 26840 --- [mngsystem] [    Test worker] c.p.m.w.c.EmployeeIntegrationTest        : Started EmployeeIntegrationTest in 0.571 seconds (process running for 8.097)
+2024-08-27T20:41:51.793+03:00  INFO 9452 --- [mngsystem] [    Test worker] c.p.m.w.c.EmployeeIntegrationTest        : Starting EmployeeIntegrationTest using Java 17.0.10 with PID 9452 (started by nefer in C:\Users\nefer\IdeaProjects\Employees-Management-System\mngsystem)
+2024-08-27T20:41:51.793+03:00  INFO 9452 --- [mngsystem] [    Test worker] c.p.m.w.c.EmployeeIntegrationTest        : No active profile set, falling back to 1 default profile: &quot;default&quot;
+2024-08-27T20:41:51.941+03:00  INFO 9452 --- [mngsystem] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-27T20:41:51.952+03:00  INFO 9452 --- [mngsystem] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 1 JPA repository interface.
+2024-08-27T20:41:52.038+03:00  INFO 9452 --- [mngsystem] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2024-08-27T20:41:52.088+03:00  INFO 9452 --- [mngsystem] [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection oracle.jdbc.driver.T4CConnection@4d7ddf28
+2024-08-27T20:41:52.095+03:00  INFO 9452 --- [mngsystem] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2024-08-27T20:41:52.097+03:00  INFO 9452 --- [mngsystem] [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-27T20:41:52.100+03:00  INFO 9452 --- [mngsystem] [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-27T20:41:52.111+03:00  INFO 9452 --- [mngsystem] [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-27T20:41:52.114+03:00  WARN 9452 --- [mngsystem] [    Test worker] org.hibernate.orm.deprecation            : HHH90000025: OracleDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-27T20:41:52.153+03:00  INFO 9452 --- [mngsystem] [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-27T20:41:52.153+03:00  INFO 9452 --- [mngsystem] [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-27T20:41:52.218+03:00  WARN 9452 --- [mngsystem] [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-27T20:41:52.325+03:00  INFO 9452 --- [mngsystem] [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-08-27T20:41:52.325+03:00  INFO 9452 --- [mngsystem] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-08-27T20:41:52.326+03:00  INFO 9452 --- [mngsystem] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2024-08-27T20:41:52.332+03:00  INFO 9452 --- [mngsystem] [    Test worker] c.p.m.w.c.EmployeeIntegrationTest        : Started EmployeeIntegrationTest in 0.56 seconds (process running for 8.625)
+2024-08-27T20:41:52.744+03:00  INFO 9452 --- [mngsystem] [    Test worker] c.p.m.b.s.impl.EmployeeServiceImpl       : Employee with ID: 231 successfully deleted.
+2024-08-27T20:41:52.744+03:00  INFO 9452 --- [mngsystem] [    Test worker] c.p.m.web.controller.EmployeeController  : Employee with ID: 231 deleted successfully
+2024-08-27T20:41:52.767+03:00  INFO 9452 --- [mngsystem] [    Test worker] c.p.m.web.controller.EmployeeController  : Exporting employees to CSV file with department: Space and who joined after: 2021-01-01
+2024-08-27T20:41:52.797+03:00  INFO 9452 --- [mngsystem] [    Test worker] c.p.m.b.s.impl.EmployeeServiceImpl       : Successfully exported 1 employees to employees.csv
+2024-08-27T20:41:52.797+03:00  INFO 9452 --- [mngsystem] [    Test worker] c.p.m.web.controller.EmployeeController  : Data exported to employees.csv
+2024-08-27T20:41:52.819+03:00  INFO 9452 --- [mngsystem] [    Test worker] c.p.m.web.controller.EmployeeController  : Creating new employee: Employee(id=null, name=John Doe, department=Engineering, joinDate=2022-01-01)
+2024-08-27T20:41:52.822+03:00  INFO 9452 --- [mngsystem] [    Test worker] c.p.m.web.controller.EmployeeController  : New employee created with ID: 233
+2024-08-27T20:41:52.843+03:00  INFO 9452 --- [mngsystem] [    Test worker] c.p.m.web.controller.EmployeeController  : Fetching employees with department: null and year: null
+2024-08-27T20:41:52.846+03:00  INFO 9452 --- [mngsystem] [    Test worker] c.p.m.web.controller.EmployeeController  : Fetched 2 employees
 </pre>
 </span>
 </div>
@@ -143,7 +152,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 8.8</a> at 27 авг. 2024 г., 15:15:17</p>
+<a href="http://www.gradle.org">Gradle 8.8</a> at 27 авг. 2024 г., 20:41:53</p>
 </div>
 </div>
 </body>

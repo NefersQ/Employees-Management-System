@@ -3,8 +3,8 @@ It is a project that manages employee database.
 
 **Main technologies** are: Java 17,openJDK 16, Spring(Boot,Web,Jpa),Oracle Database.
 
-**Package structure** includes business, model and web.controller packages. Business is responsible for containing repository,DAO models, mappers and services.
-Model package contains only DTO. Web.controller package contains only controllers of the application.
+**Package structure** includes business,handlers, model and web.controller packages. Business is responsible for containing repository,DAO models, mappers and services.
+Model package contains only DTO. Web.controller package contains only controllers of the application. Handlers contains custom exceptions.
 
 **Program execution.** To execute this project you should clone the project from the Git using git clone command. After cloning please open it in Intellij IDEA for the best experience.  
 Then in application.properties file you should change 3 lines:  
