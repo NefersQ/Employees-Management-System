@@ -1,4 +1,4 @@
-# Employee-Project
+# Employees-Managment-System
 It is a project that manages employee database.
 Main technologies are: Java 17,openJDK 16, Spring(Boot,Web,Jpa),Oracle Database.
 
